@@ -11,7 +11,7 @@ import java.util.ArrayList;
 public class HelloController {
 
     @RequestMapping("/")
-    public ArrayList<Friend> index() {
+    public ArrayList<Friend> getAllFriends() {
         return new FriendServices().getFriends();
     }
 
